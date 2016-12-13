@@ -38,3 +38,10 @@ console.log(Array.isArray(x));
 // console.log(x.key1);
 // console.log(typeof x);
 
+var x = ["123"];
+console.log(x); // ["123"]
+var y = x;
+console.log(y); // ["123"]
+y[0] = 345;
+console.log(y); // [345];
+console.log(x); // [345];
